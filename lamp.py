@@ -17,11 +17,11 @@ from cloud import send_current_warmth
 TIME_TO_REFRESH = 5  # время на обновление запросов
 
 
-def regulate_lighting(current_lighting, reference_lighting):
+def regulate_lighting(current_lighting_, reference_lighting_):
     """
     Функция имитации регуляции освещения. При каждой регуляции выводится сообщение в консоль
     """
-    print('--regulate lighting. current: {}, reference: {}---'.format(current_lighting, reference_lighting))
+    print('--regulate lighting. current: {}, reference: {}---'.format(current_lighting_, reference_lighting_))
 
 
 def regulate_warmth(current_warmth, reference_warmth):
